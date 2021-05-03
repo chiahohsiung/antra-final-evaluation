@@ -3,26 +3,32 @@ import developerdesign from "../images/developerdesign.svg";
 import responsivedesign from "../images/responsivedesign.svg";
 import innovativesolutions from "../images/innovativesolutions.svg";
 import passion from "../images/passion.svg";
+import './Summary.css'
 
+import SummaryCard from './SummaryCard'
 function Summary() {
+  const descriptions = ['Responsive Layouts', 'Responsive Layouts', 'Responsive Layouts', 'Responsive Layouts']
+  const imagePaths = [developerdesign, responsivedesign, innovativesolutions, passion]
+  const details = Array(4).fill("Development and design isn't merely putting information on the site or preferred media outlet. I organize content and present information in an engaging fashion, driving new and unique layouts in tandem with novel solutions and cool animations")
+  let cards = []
+  descriptions.forEach((description, index) => {
+    console.log('hi')
+    cards.push(
+      <SummaryCard
+        key={index}
+        description={description}
+        detail={details[index]}
+        imagePath={imagePaths[index]}
+      />
+    )
+  })
+  console.log('cards', cards)
   return (
-    <div class="summary">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="development-summary">
-            <div class="col-sm-1 col-md-1">
-              <div class="development-img">
-                <img class="img-responsive" src={developerdesign} />
-              </div>
-            </div>
+    <div className="summary">
+      {cards}
+      {/* <div class="container-fluid">
+        <div class="my-row">
 
-            <div class="col-sm-4 col-md-4">
-              <div class="development-description">
-                <h3>Development and Design</h3>
-                <p>I aim to put my creativity to the test, designing and building unique, meaningful products for clients or merely for my own interests.</p>
-              </div>
-            </div>
-          </div>
 
           <div class="responsive-summary">
             <div class="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
@@ -69,7 +75,7 @@ function Summary() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

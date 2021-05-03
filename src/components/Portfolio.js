@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Portfolio.css'
 function Portfolio() {
   return (
     <div className="projects" id="projects">
@@ -64,12 +64,11 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-2 col-md-2 col-sm-offset-5 col-md-offset-5">
+        <div className="my-row">
+
             <div className="see-more-button">
               <a className="btn btn-default btn-border" href="#">More Projects</a>
             </div>
-          </div>
         </div>
       </div>
     </div>
