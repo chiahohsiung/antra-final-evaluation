@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 text-center">

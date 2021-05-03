@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './About.css'
 function About() {
   return (
     <div class="about" id="about">
@@ -20,7 +20,7 @@ function About() {
           </div>
         </div>
 
-        <div class="row">
+        <div class="my-row">
           <div class="about-general-description ">
             <div class="col-sm-8 col-md-8 ">
               <h2>General Overview</h2>
@@ -29,33 +29,31 @@ function About() {
           </div>
         </div>
 
-        <div class="row">
-          <div class="statistic-row">
-            <div class="about-statistic-description">
-              <div class="col-sm-8 col-md-8">
-                <h2>Statistics</h2>
-                <h5><em>And for those that don't fancy reading:</em></h5>
-                <br />
+        <div class="my-row">
 
-                <p>Male, 200 years old.</p>
-                <p>Five feet 110 inches</p>
-                <p>Favorite fonts:Roboto </p>
-                <p>Loves to learn new things</p>
+          <div class="about-statistic-description">
+            <div class="col-sm-8 col-md-8">
+              <h2>Statistics</h2>
+              <h5><em>And for those that don't fancy reading:</em></h5>
+              <br />
 
-              </div>
+              <p>Male, 200 years old.</p>
+              <p>Five feet 110 inches</p>
+              <p>Favorite fonts:Roboto </p>
+              <p>Loves to learn new things</p>
+
             </div>
+
           </div>
         </div>
 
-        <div class="row">
+        <div class="my-row text-center">
           <div class="about-option-buttons">
-            <div class="col-sm-2 col-md-2">
-              <a href="#contact" class="btn btn-default btn-black-border">Contact</a>
-            </div>
+            <a href="#contact" class="btn btn-default btn-black-border">Contact</a>
           </div>
         </div>
 
-			</div>
+      </div>
     </div>
   )
 }
