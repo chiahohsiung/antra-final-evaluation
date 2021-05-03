@@ -16,14 +16,11 @@ function Navbar() {
 
           <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 text-right">
             <div className="primary-nav">
-              {/* <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "portfolio.html">Portfolio</a></li>
-                <li><a href = "contact.html">Contact</a></li>
-              </ul> */}
-              <Link to="/">Home </Link>
-              <Link to="/portfolio">Portfolio</Link>
-              <Link to="/contact">Contact</Link>
+              <ul>
+                <li><Link to="/">Home </Link></li>
+                <li><Link to="/portfolio">Portfolio</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+              </ul>
             </div>
           </div>
         </div>

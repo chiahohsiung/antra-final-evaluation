@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-12 text-center">
