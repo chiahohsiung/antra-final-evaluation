@@ -7,12 +7,14 @@ import './Summary.css'
 
 import SummaryCard from './SummaryCard'
 function Summary() {
-  const descriptions = ['Responsive Layouts', 'Responsive Layouts', 'Responsive Layouts', 'Responsive Layouts']
+  const descriptions = ['Development and Design', 'Responsive Layouts', 'Ideas and Solutions', 'Passion and Dedication']
   const imagePaths = [developerdesign, responsivedesign, innovativesolutions, passion]
   const details = Array(4).fill("Development and design isn't merely putting information on the site or preferred media outlet. I organize content and present information in an engaging fashion, driving new and unique layouts in tandem with novel solutions and cool animations")
+  console.log('details', details)
   let cards = []
   descriptions.forEach((description, index) => {
     console.log('hi')
+    console.log(details[index])
     cards.push(
       <SummaryCard
         key={index}

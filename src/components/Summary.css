@@ -5,12 +5,15 @@
   background-attachment: center center;
   color: white;
   padding: 60px 30px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
 
-.summary .row {
+/* .summary .row {
   padding: 50px 6%;
   width: 100%;
-}
+} */
 
 .summary h3 {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -24,4 +27,6 @@
   display: block;
   max-width: 100%;
   height: auto;
+
+
 }
