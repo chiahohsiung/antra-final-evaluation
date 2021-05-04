@@ -1,11 +1,12 @@
 .summary-card {
-  width: 400px;
+  width: 450px;
   height: 250px;
   margin: 20px;
   
 }
 
 .img-responsive {
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
 }
