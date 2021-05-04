@@ -16,7 +16,6 @@ function SummaryCard(props) {
 
       </div>
     </div>
-
   )
 }
 

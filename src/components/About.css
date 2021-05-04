@@ -23,11 +23,15 @@
   margin-bottom: 50px;
 }
 
-.about-general-description,
+.about-description {
+  width: 67%;
+  margin: 0 auto;
+}
+/* .about-general-description,
 .about-statistic-description {
   display: flex;
   justify-content: center;
-}
+} */
 .about-general-description h2,
 .about-statistic-description h2 {
   font-family: "Source Sans Pro", Arial, sans-serif;
