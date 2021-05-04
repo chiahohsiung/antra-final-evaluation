@@ -1,7 +1,9 @@
 .project-card {
   width: 300px;
-  height: 300px;
+  max-height: 300px;
+  overflow: auto;
   margin: 20px;
+  flex-grow: 1;
 }
 
 .project-card h3 {
