@@ -1,6 +1,26 @@
 import React from 'react'
 import './Portfolio.css'
+
+import Project from './Project'
 function Portfolio() {
+  const projects = [];
+  const titles = ['LUV TALK Website', 'Personal Website', 'Strike Zone Analysis']
+  const details = [
+    'Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.',
+    'Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.',
+    'Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.'
+  ]
+  const titleClasses = ['luvtalk-project', 'personal-website-project', 'strike-zone-project']
+  titles.forEach((title, index) => {
+    projects.push(
+      <Project 
+        key={index}
+        title={title} 
+        detail={details[index]} 
+        titleClass={titleClasses[index]}
+      />
+    )
+  })
   return (
     <div className="projects" id="projects">
       <div className="container-fluid">
@@ -20,50 +40,9 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-4 col-md-4 text-center">
-            <div className="luvtalk-project">
-              <h3>LUV TALK Website</h3>
-              <p>Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress. </p>
-              <div className="row">
-                <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-                  <div className="project-more-info">
-                    <a className="btn btn-default btn-border" href="#">More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-4 col-md-4 text-center">
-            <div className="personal-website-project">
-              <h3>Personal Website</h3>
-              <p>Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.</p>
-              <div className="row">
-                <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-                  <div className="project-more-info">
-                    <a className="btn btn-default btn-border" href="#">More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-4 col-md-4 text-center">
-            <div className="strike-zone-project">
-              <h3>Strike Zone Analysis</h3>
-              <p>Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.</p>
-              <div className="row">
-                <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
-                  <div className="project-more-info">
-                    <a className="btn btn-default btn-border" href="#">More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="project-container">
+          {projects}
         </div>
-
         <div className="my-row">
 
             <div className="see-more-button">
