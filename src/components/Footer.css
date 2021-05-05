@@ -12,6 +12,7 @@
 
 .media-links {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
@@ -34,6 +35,14 @@
 
 .footer img:hover {
   background-color: white;
+}
+.personal-contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.personal-contact {
+  padding: 0 20px;
 }
 .company-information,
 .home-footer,
