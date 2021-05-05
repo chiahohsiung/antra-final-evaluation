@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="project-card text-center"
+  >
+    <div
+      class="luvtalk-project"
+    >
+      <h3>
+        test-title
+      </h3>
+      <p>
+        test-detail
+      </p>
+      <div
+        class="project-more-info"
+      >
+        <a
+          class="btn btn-default btn-border"
+          href="#"
+        >
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
