@@ -5,11 +5,11 @@ function SummaryCard(props) {
   return (
     <div className="summary-card">
       <div className="summary-card-content">
-        <div className="summary-card-img-container text-center">
-          <img className="img-responsive" src={imagePath} />
+        <div className="text-center">
+          <img className="summary-card-img" alt="summary-card-img" src={imagePath} />
         </div>
 
-        <div className="development-description">
+        <div className="summary-card-description">
           <h3>{title}</h3>
           <p>{detail}</p>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
+import Project from '../Project/Project'
 
-import Project from './Project'
 function Portfolio() {
   const projects = [];
   const titles = ['LUV TALK Website', 'Personal Website', 'Strike Zone Analysis']

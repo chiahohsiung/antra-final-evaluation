@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css'
-import facebook from '../images/facebook.svg'
-import linkedin from '../images/linkedin.svg'
-import pinterest from '../images/pinterest.svg'
-import email from '../images/email.svg'
+import facebook from '../../images/facebook.svg'
+import linkedin from '../../images/linkedin.svg'
+import pinterest from '../../images/pinterest.svg'
+import email from '../../images/email.svg'
 function Footer() {
   return (
     <div className="footer">

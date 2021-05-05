@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryCard should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="summary-card"
+  >
+    <div
+      class="summary-card-content"
+    >
+      <div
+        class="text-center"
+      >
+        <img
+          alt="summary-card-img"
+          class="summary-card-img"
+          src="developerdesign.svg"
+        />
+      </div>
+      <div
+        class="summary-card-description"
+      >
+        <h3>
+          test-title
+        </h3>
+        <p>
+          test-detail
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

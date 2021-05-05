@@ -1,10 +1,10 @@
 import React from 'react'
-import developerdesign from "../images/developerdesign.svg";
-import responsivedesign from "../images/responsivedesign.svg";
-import innovativesolutions from "../images/innovativesolutions.svg";
-import passion from "../images/passion.svg";
+import developerdesign from "../../images/developerdesign.svg";
+import responsivedesign from "../../images/responsivedesign.svg";
+import innovativesolutions from "../../images/innovativesolutions.svg";
+import passion from "../../images/passion.svg";
+import SummaryCard from '../SummaryCard/SummaryCard'
 
-import SummaryCard from './SummaryCard'
 import './Summary.css'
 
 
