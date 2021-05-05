@@ -9,6 +9,12 @@
 .footer h4 {
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
+
+.media-links {
+  display: flex;
+  justify-content: center;
+}
+
 .facebook,
 .linkedin,
 .pinterest,
@@ -17,8 +23,8 @@
 }
 .footer img {
   background-color: #8a8a8a;
-  height: 20px;
-  width: 20px;
+  height: 34px;
+  width: 34px;
   -webkit-transition: all 200ms ease-out;
   -moz-transition: all 200ms ease-out;
   -o-transition: all 200ms ease-out;

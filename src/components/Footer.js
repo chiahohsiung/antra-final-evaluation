@@ -8,32 +8,30 @@ function Footer() {
   return (
     <div className="footer">
       <div className="container-fluid">
-        <div className="row">
-          <div className="media-links">
-            <div className="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
-              <div className="facebook">
-                <a href="#"><img class="img-responsive" src={facebook} /></a>
-              </div>
-            </div>
-
-            <div className="col-sm-1 col-md-1">
-              <div className="linkedin">
-                <a href="#"><img className="img-responsive" src={linkedin} /></a>
-              </div>
-            </div>
-
-            <div className="col-sm-1 col-md-1">
-              <div className="pinterest">
-                <a href="#"><img className="img-responsive" src={pinterest} /></a>
-              </div>
-            </div>
-
-            <div className="col-sm-1 col-md-1">
-              <div className="email-icon">
-                <a href="#"><img className="img-responsive" src={email} /></a>
-              </div>
+        {/* <div className="my-row"> */}
+        <div className="media-links">
+          <div className="col-sm-1 col-md-1">
+            <div className="facebook">
+              <a href="#"><img class="img-responsive" src={facebook} /></a>
             </div>
           </div>
+          <div className="col-sm-1 col-md-1">
+            <div className="linkedin">
+              <a href="#"><img className="img-responsive" src={linkedin} /></a>
+            </div>
+          </div>
+          <div className="col-sm-1 col-md-1">
+            <div className="pinterest">
+              <a href="#"><img className="img-responsive" src={pinterest} /></a>
+            </div>
+          </div>
+
+          <div className="col-sm-1 col-md-1">
+            <div className="email-icon">
+              <a href="#"><img className="img-responsive" src={email} /></a>
+            </div>
+          </div>
+          {/* </div> */}
         </div>
 
         <div className="row">
